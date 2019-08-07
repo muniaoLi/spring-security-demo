@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class YmlConfig
 {
     @Bean
-    public static PropertySourcesPlaceholderConfigurer properties()
+    public static PropertySourcesPlaceholderConfigurer ymlProperties()
     {
         PropertySourcesPlaceholderConfigurer configurer = new PropertySourcesPlaceholderConfigurer();
         YamlPropertiesFactoryBean yaml = new YamlPropertiesFactoryBean();
