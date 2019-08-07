@@ -1,0 +1,4 @@
+testlist:
+  servers:
+    - dev.example.com
+    - test.example.com
